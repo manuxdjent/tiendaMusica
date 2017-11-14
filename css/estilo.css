@@ -1,0 +1,52 @@
+@font-face {
+    font-family: guitarCenter;
+    src: url(../font/MyriadPro-Regular.otf);
+}
+body{
+  font-family: guitarCenter;
+}
+.navbar-brand > img {
+  margin-bottom: .1em;
+}
+.material-icons{
+  color:white;
+}
+#menuIcons{
+  margin-top: .5em;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.jumbotron{
+  background-image: url("../img/guitarra.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40em;
+  margin-bottom: 0;
+}
+.bateria{
+  background-image: url("../img/bateria.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40em;
+}
+.list-unstyled > li {
+  font-size: 0.7em;
+}
+.footer{
+  padding: 2em;
+  margin-right: 0;
+  background-color: lightgrey;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+  transition: color 0.5s;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+  color: white;
+}
+h1{
+  color: white;
+}
