@@ -84,7 +84,7 @@
 <footer>
   <div class="row footer">
     <div class="col-md-2">
-      <h6>Mapa de la web</h6>
+      <h5>Mapa de la web</h5>
       <ul class="list-unstyled">
         <li>Cuerdas</li>
         <li>Metal</li>
@@ -98,7 +98,7 @@
       </ul>
     </div>
     <div class="col-md-2">
-      <h6>Pago y seguridad</h6>
+      <h5>Pago y seguridad</h5>
       <ul class="list-unstyled">
         <li>Métodos de pago</li>
         <li>Formas de envío</li>
@@ -107,16 +107,46 @@
       </ul>
     </div>
     <div class="col-md-2">
-      <h6>Cuentas</h6>
+      <h5>Cuentas</h5>
       <ul class="list-unstyled">
         <li>Gestionar cuenta</li>
         <li>Registro</li>
       </ul>
+    </div>
+    <div class="col-md-2">
+      <h5>Social</h5>
+      <ul class="list-unstyled">
+        <li><img src="social/facebook-logo.png" alt=""  class="social">Facebook</li>
+        <li><img src="social/youtube-logo.png" alt="" class="social">Youtube</li>
+        <li><img src="social/instagram-logo.png" alt="" class="social">Instagram</li>
+        <li><img src="social/twitter-logo.png" alt="" class="social">Twitter</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h5>¿Dónde estamos?</h5>
+      <div id="map">
+
+      </div>
     </div>
   </div>
 </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLuPFtnWwvqRsk-wnJGYOkUIUfef1BOIk&callback=initMap"
+    async defer></script>
+    <script>
+      function initMap() {
+        var uluru = {lat: 36.670300, lng: -6.135337};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
   </body>
 </html>
