@@ -50,6 +50,41 @@ body{
   max-width: 100%;
   height: auto;
 }
+.item img{
+  height: 20em;
+  display: inline-block;
+  }
+.guitarras{
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+.item{
+  border:1px solid grey;
+  margin-right: 1em;
+  display: inline-block;
+}
+/* .item > span {
+  display: inline-block;
+} */
+.precio{
+  color: red;
+  float: right;
+  margin-right: 1em;
+  font-size: 1.5em;
+}
+.detalles > i{
+  margin-top:0.1em;
+}
+
+.detalles{
+  clear:both;
+  width: 100%;
+  height: 2em;
+  background-color: rgba(0, 0, 0, 0.91);
+  padding: 0.5em;
+  font-size: 1.2em;
+  color: white;
+}
 .jumbotron{
   background-image: url("../img/guitarra.png");
   background-repeat: no-repeat;
@@ -57,6 +92,9 @@ body{
   background-attachment: fixed;
   height: 40em;
   margin-bottom: 0;
+}
+.jumbotron.cabecera {
+  height: 20em;
 }
 .bateria{
   background-image: url("../img/bateria.jpg");
