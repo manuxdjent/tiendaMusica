@@ -99,7 +99,7 @@ h1{
     margin: 0 auto;
   }
   .navbar-brand > img{
-    margin-left: -20px;
+    /* margin-left: -20px; */
   }
   #map{
     height: 10em;
