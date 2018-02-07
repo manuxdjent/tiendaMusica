@@ -5,6 +5,38 @@
 body{
   font-family: guitarCenter;
 }
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: .4em;
+}
+
+.sprite-facebook-logo {
+    width: 24px;
+    height: 24px;
+    background-position: -5px -5px;
+}
+
+.sprite-instagram-logo {
+    width: 24px;
+    height: 24px;
+    background-position: -39px -5px;
+}
+
+.sprite-twitter-logo {
+    width: 24px;
+    height: 24px;
+    background-position: -5px -39px;
+}
+
+.sprite-youtube-logo {
+    width: 24px;
+    height: 24px;
+    background-position: -39px -39px;
+}
 .navbar-brand > img {
   margin-bottom: .1em;
 }
@@ -74,6 +106,9 @@ h1{
   }
   .material-icons.searchMobile{
     display: inline-block;
+  }
+  .carrito , .login{
+    display: none;
   }
 }
 @media only screen and (min-width: 992px) {
