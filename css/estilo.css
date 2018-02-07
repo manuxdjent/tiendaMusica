@@ -52,8 +52,31 @@ body{
 }
 .item img{
   height: 20em;
-  display: inline-block;
   }
+.stock{
+  color: green;
+  float: left;
+  margin-left: 1em;
+  margin-top: 0.28em;
+}
+.noStock{
+  color: red;
+  float: left;
+  margin-left: 1em;
+  margin-top: 0.28em;
+}
+.pocoStock{
+  color: orange;
+  float: left;
+  margin-left: 1em;
+  margin-top: 0.28em;
+}
+.preStock{
+  color: grey;
+  float: left;
+  margin-left: 1em;
+  margin-top: 0.28em;
+}
 .guitarras{
     margin-top: 2em;
     margin-bottom: 2em;
@@ -62,6 +85,7 @@ body{
   border:1px solid grey;
   margin-right: 1em;
   display: inline-block;
+  margin-bottom: 1em;
 }
 /* .item > span {
   display: inline-block;
