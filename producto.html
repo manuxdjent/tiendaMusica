@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Music Store || Guitarras</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <i class="material-icons searchMobile">shopping_cart</i>
+      <a class="navbar-brand" href="index.html"><img src="img\logomenu.png" alt="guitar-center"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li> -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Guitarras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Metal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cuerda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Percusión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Viento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Grabación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Partituras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accesorios</a>
+          </li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+        <form class="form-inline buscarNav" action="index.html" method="post">
+          <input class="form-control buscar" type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+        <div class="row" id="menuIcons">
+          <div class="col-md-4 col-sm-6">
+            <a href="#"><i class="material-icons search">search</i></a>
+          </div>
+          <div class="col-md-4 col-sm-6 login">
+            <a href="#"><i class="material-icons" data-toggle="modal" data-target="#exampleModal">account_circle</i></a>
+          </div>
+          <div class="col-md-4 carrito">
+            <a href="#"><i class="material-icons">shopping_cart</i></a>
+          </div>
+        </div>
+      </div>
+</nav>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Acceso</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="index.html" method="post">
+          <div class="form-group">
+             <label for="user">Nombre de usuario</label>
+             <input type="user" class="form-control" id="user">
+          </div>
+          <div class="form-group">
+            <label for="password">Contraseña</label>
+            <input type="password" class="form-control" id="password">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="jumbotron jumbotron-fluid cabecera">
+<div class="container-fluid">
+  <h1 class="display-3">Guitarras</h1>
+  <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+</div>
+</div>
+<div class="row cartel">
+  <div class="col-md-10 offset-md-1 text-center">
+    <div class="tituloItem">
+      Fender Squier
+    </div>
+  </div>
+</div>
+<div class="row detalle">
+  <div class="col-md-6 producto">
+    <img src="img/guitarra.jpg" alt="">
+  </div>
+  <div class="col-md-5">
+    <div class="desc">
+      La Squier Strat es una sencilla y económica guitarra, ideal para principiantes. No importa a qué estilo te quieras dedicar.
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="row footer">
+    <div class="col-md-2 col-sm-6">
+      <h5>Mapa de la web</h5>
+      <ul class="list-unstyled">
+        <li>Cuerdas</li>
+        <li>Metal</li>
+        <li>Percusión</li>
+        <li>Iluminación</li>
+        <li>Partituras</li>
+        <li>Viento</li>
+        <li>Bajos</li>
+        <li>Grabación</li>
+        <li>Accesorios</li>
+      </ul>
+    </div>
+    <div class="col-md-2 col-sm-6">
+      <h5>Pago y seguridad</h5>
+      <ul class="list-unstyled">
+        <li>Métodos de pago</li>
+        <li>Formas de envío</li>
+        <li>Seguridad de pago</li>
+        <li>Empleo</li>
+      </ul>
+    </div>
+    <div class="col-md-2 col-sm-6">
+      <h5>Cuentas</h5>
+      <ul class="list-unstyled">
+        <li>Gestionar cuenta</li>
+        <li>Registro</li>
+      </ul>
+    </div>
+    <div class="col-md-2 col-sm-6">
+      <h5>Social</h5>
+      <ul class="list-unstyled">
+        <li><i class="sprite sprite-facebook-logo"></i><span>Facebook</span></li>
+        <li><i class="sprite sprite-youtube-logo"></i><span>Youtube</span></li>
+        <li><i class="sprite sprite-instagram-logo"></i><span>Instagram</span></li>
+        <li><i class="sprite sprite-twitter-logo"></i><span>Twitter</span></li>
+      </ul>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <h5>¿Dónde estamos?</h5>
+      <div id="map">
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLuPFtnWwvqRsk-wnJGYOkUIUfef1BOIk&callback=initMap"
+    async defer></script>
+    <script>
+    // Google Maps
+      function initMap() {
+        var uluru = {lat: 36.670300, lng: -6.135337};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+      // Efectos
+      $(".search").click(function(){
+        $(".buscarNav").animate({width:'toggle',opacity:'toggle'});
+        $(".buscar").focus();
+      });
+      $(".buscarNav").focusout(function(){
+        $(".buscarNav").animate({width:'toggle',opacity:'toggle'});
+      });
+    </script>
+  </body>
+</html>
