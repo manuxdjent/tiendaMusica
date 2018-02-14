@@ -144,26 +144,56 @@ body{
 .detalles a {
   color: white;
 }
+.detalles:hover{
+  text-decoration: none;
+  color:white;
+}
 a:hover{
   text-decoration: none;
+}
+.modal-footer > a{
+  margin-left: auto;
+  width: 100%;
 }
 .jumbotron{
   background-image: url("../img/guitarra.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 40em;
+  height: 100vh;
   margin-bottom: 0;
 }
 .jumbotron.cabecera {
   height: 20em;
 }
+.btn-light a{
+  color: black;
+}
+.descPromo{
+  list-style: none;
+  color: white;
+  padding: 0;
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+.display-2{
+  line-height: 0.7;
+}
+.panel{
+  border:1px solid grey;
+  margin-top:1.5em;
+}
+.panel span {
+  font-size: 2em;
+  color: red;
+  margin-left: 2em;
+}
 .bateria{
-  background-image: url("../img/bateria.jpg");
+  background-image: url("../img/bateria2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 40em;
+  height: 100vh;
 }
 .list-unstyled > li {
   font-size: 0.9em;
