@@ -12,6 +12,7 @@
 }
 body{
   font-family: guitarCenter;
+  overflow-x: hidden;
 }
 .sprite {
     background-image: url(spritesheet.png);
@@ -72,6 +73,18 @@ body{
 }
 .material-icons{
   color:white;
+}
+.material-icons.add{
+  color:black;
+  display: block;
+}
+.material-icons.down{
+  color:black;
+
+}
+.addremove{
+  float: right;
+  margin-right: 3em;
 }
 #menuIcons{
   margin-top: .5em;
@@ -141,6 +154,10 @@ body{
   font-size: 1.2em;
   color: white;
 }
+.btn-lg{
+  width: 5em;
+  float: right;
+}
 .detalles a {
   color: white;
 }
@@ -180,8 +197,25 @@ a:hover{
   line-height: 0.7;
 }
 .panel{
-  border:1px solid grey;
+  border-radius: 1em;
   margin-top:1.5em;
+  background-color: #eeeff3;
+  padding: 1.5em;
+}
+.col-md-8.precioDiv span{
+  margin-left: 0;
+}
+.col-md-8.precioDiv{
+  margin-bottom: 2em;
+}
+.precioDiv > .preciospan {
+  font-size: 1.5em;
+}
+
+.unidades{
+  width: 2.5em;
+  float: left;
+  margin-top: 0.3em;
 }
 .panel span {
   font-size: 2em;
