@@ -74,17 +74,40 @@ body{
 .material-icons{
   color:white;
 }
+.carritoG{
+  height: 4em;
+}
+.del{
+  color: black;
+  cursor: pointer;
+  user-select: none;
+}
+.num{
+  width: 4em;
+}
+.modal-footer > .total{
+  margin-right: 15em;
+}
+h5{
+  display: inline;
+  color: 
+}
 .material-icons.add{
   color:black;
   display: block;
+  cursor: pointer;
+  user-select: none;
 }
 .material-icons.down{
   color:black;
+  cursor: pointer;
+  user-select: none;
 
 }
 .addremove{
-  float: right;
+  /* float: right; */
   margin-right: 3em;
+  display: inline-grid;
 }
 #menuIcons{
   margin-top: .5em;
@@ -156,7 +179,7 @@ body{
 }
 .btn-lg{
   width: 5em;
-  float: right;
+  /* float: right; */
 }
 .detalles a {
   color: white;
@@ -213,9 +236,10 @@ a:hover{
 }
 
 .unidades{
-  width: 2.5em;
-  float: left;
+  width: 3em;
+  /* float: left; */
   margin-top: 0.3em;
+  display: inline;
 }
 .panel span {
   font-size: 2em;

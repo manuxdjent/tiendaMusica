@@ -65,7 +65,7 @@
             <a href="#"><i class="material-icons" data-toggle="modal" data-target="#exampleModal">account_circle</i></a>
           </div>
           <div class="col-md-4 carrito">
-            <a href="#"><i class="material-icons">shopping_cart</i></a>
+            <a href="#"><i class="material-icons" data-toggle="modal" data-target="#exampleModal2">shopping_cart</i></a>
           </div>
         </div>
       </div>
@@ -94,6 +94,45 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
         <button type="button" class="btn btn-primary">Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Uds.</th>
+              <th scope="col">Producto</th>
+              <th scope="col">Descripción</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td><i class="material-icons del">delete</i></td>
+                <td><input class="form-control num" min="1" max="99" type="number" value="2"/></td>
+                <td><img src="img/guitarra.jpg" class="carritoG" alt="fender"></td>
+                <td>Fender Squier</td>
+                <td>200</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <span class="total">Total: <h5>200 €</h5></span>
+        <button type="button" class="btn btn-secondary vaciar">Vaciar</button>
+        <button type="button" class="btn btn-primary">Pagar</button>
       </div>
     </div>
   </div>
@@ -209,6 +248,9 @@
       });
       $(".buscarNav").focusout(function(){
         $(".buscarNav").animate({width:'toggle',opacity:'toggle'});
+      });
+      $('.vaciar').click(function(){
+        $('tbody').html('');
       });
     </script>
   </body>
