@@ -27,3 +27,11 @@ img{
 /* img:hover{
   filter: drop-shadow(8px 8px 10px gray) invert(100%);
 } */
+.material-icons.offOn{
+  color: white;
+  font-size: 5em;
+  position: absolute;
+  z-index: 9;
+  cursor: pointer;
+  user-select: none;
+}
